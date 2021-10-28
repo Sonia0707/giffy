@@ -1,7 +1,8 @@
 // Hooks => useState = Para el cambio del estado
 import React, { useEffect, useState } from "react";
-import Gif from "./Gif";
-import getGifs from "../services/getGifs";
+import Gif from "../Gif";
+import getGifs from "../../services/getGifs";
+import './ListOfGifs.css'
 
 export default function ListOfGifs({ params }) {
   const { keyword } = params;

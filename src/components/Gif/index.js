@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Gif.css";
+import "./Gif.css";
 export default function Gif({ title, id, url }) {
   return (
     <a href={`#${id}`} className="Gif">
