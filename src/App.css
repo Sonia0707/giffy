@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-.App-header {
+.App-content {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -9,18 +9,14 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  padding: 16px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  font-size: 48px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #09f;
+  font-size: 24px;
 }
